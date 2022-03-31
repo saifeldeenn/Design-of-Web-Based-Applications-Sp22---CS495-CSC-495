@@ -8,25 +8,19 @@
     <style type="text/css">
         .auto-style1 {
             width: 100%;
-        }
-        .auto-style2 {
-            width: 131px;
+            margin-bottom: 139px;
         }
         .auto-style3 {
             text-align: center;
         }
         .auto-style4 {
-            width: 308px;
+            width: 418px;
         }
         .auto-style5 {
             font-size: large;
         }
-        .auto-style6 {
-            width: 131px;
-            height: 26px;
-        }
         .auto-style7 {
-            width: 308px;
+            width: 418px;
             height: 26px;
         }
         .auto-style8 {
@@ -34,6 +28,13 @@
         }
         .auto-style9 {
             margin-left: 34px;
+        }
+        .auto-style10 {
+            width: 451px;
+        }
+        .auto-style11 {
+            width: 451px;
+            height: 26px;
         }
     </style>
 </head>
@@ -47,7 +48,7 @@
             <br />
             <table class="auto-style1">
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style10">
                         <asp:Label ID="lblFname" runat="server" Text="First Name:"></asp:Label>
                     </td>
                     <td class="auto-style4">
@@ -57,7 +58,7 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style10">
                         <asp:Label ID="lblLname" runat="server" Text="Last Name:"></asp:Label>
                     </td>
                     <td class="auto-style4">
@@ -67,7 +68,7 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style10">
                         <asp:Label ID="lblUsername" runat="server" Text="Username:"></asp:Label>
                     </td>
                     <td class="auto-style4">
@@ -77,7 +78,7 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style10">
                         <asp:Label ID="lblPasswod" runat="server" Text="Password:"></asp:Label>
                     </td>
                     <td class="auto-style4">
@@ -87,7 +88,7 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style10">
                         <asp:Label ID="lblPassword2" runat="server" Text="Re-enter Password:"></asp:Label>
                     </td>
                     <td class="auto-style4">
@@ -97,7 +98,7 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style6">
+                    <td class="auto-style11">
                         <asp:Label ID="lblEmail" runat="server" Text="Email:"></asp:Label>
                     </td>
                     <td class="auto-style7">
@@ -107,11 +108,11 @@
                     <td class="auto-style8"></td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style10">
                         <asp:Label ID="lblGender" runat="server" Text="Gender:"></asp:Label>
                     </td>
                     <td class="auto-style4">
-                        <asp:RadioButtonList ID="RadioButtonList1" runat="server" CssClass="auto-style9" Width="255px">
+                        <asp:RadioButtonList ID="RadioButtonList1" runat="server" CssClass="auto-style9" Width="357px">
                             <asp:ListItem>Male</asp:ListItem>
                             <asp:ListItem>Female</asp:ListItem>
                         </asp:RadioButtonList>
@@ -120,11 +121,20 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style10">
                         <asp:Label ID="Label9" runat="server" Text="Country"></asp:Label>
                     </td>
                     <td class="auto-style4">
                         <asp:TextBox ID="txtCountry" runat="server" Width="214px"></asp:TextBox>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style10">
+                        &nbsp;</td>
+                    <td class="auto-style4">
+                        <asp:Button ID="btnSubmit" runat="server" Text="Submit" />
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
